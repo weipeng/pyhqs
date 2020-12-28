@@ -1,3 +1,5 @@
+# Python Code for Hierarchy Quality of Search
+
 The Amazon qulitative analysis is ad-hoc. 
 Thus, the process steps are a bit annoying. Please follow the storyline.
 

@@ -20,7 +20,7 @@ For analyzing the 12 Amazon items, do use the following command:
 python -m simulations.analyze amazon index
 ```
 The index matches the index of the tree you would like to analyze.
-After that done, type in 
+After that is done, type in 
 ```
 mv ./logs/log.txt ./logs/amazon{}.log
 ```

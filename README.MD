@@ -4,8 +4,9 @@ The Amazon qulitative analysis is ad-hoc.
 Thus, the process steps are a bit annoying. Please follow the storyline.
 
 ## Sampling the Amazon Items    
-The items are sampled from the file `metadata.json`. 
+The items are sampled from the file `metadata.json`, which refers to the Amazon dataset. 
 If that is not in your computer, try to map the items using the AI journal draft (in another repo).
+
 
 ## Setting up the tree
 The trees are hand made.

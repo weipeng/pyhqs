@@ -16,7 +16,8 @@ Follow the procedure in the notebook, we got to save two important files:
 Copy the json file to the folder `./data` and copy the pdf file to the folder of the journal.
 
 ## Running HQS
-For analyzing the 12 Amazon items, do use the following command:
+For analyzing the 12 Amazon items, we first uncommnet all the logging code in the file `./polices/greedypolicy.py`.
+Then, use the following command:
 ```
 python -m simulations.analyze amazon index
 ```

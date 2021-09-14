@@ -1,3 +1,4 @@
+import math
 import numpy as np
 
 
@@ -15,7 +16,7 @@ def hai(n, h1, h2):
             s1 = hai_single(i, j, h1)
             s2 = hai_single(i, j, h2)
             
-            h_score += np.absolute(s1 - s2)
+            h_score += math.abs(s1 - s2)
 
     return 1 - h_score / (n**2)
 

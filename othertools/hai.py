@@ -9,8 +9,8 @@ def hai_single(xi, xj, hier):
     return s
     
 def hai(n, h1, h2):
-
     h_score = 0.
+    
     for i in range(n):
         for j in range(n):
             s1 = hai_single(i, j, h1)
@@ -18,7 +18,7 @@ def hai(n, h1, h2):
             
             h_score += math.abs(s1 - s2)
 
-    return 1 - h_score / (n**2)
+    return 1 - h_score / (n ** 2)
 
 def find_closet_ancestor(xi, xj, hier):
     traj1 = hier.traj(xi)
